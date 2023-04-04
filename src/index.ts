@@ -6,7 +6,7 @@ function run(): void {
     const name: string = core.getInput('name')
     const helloMessage: string = hello(name)
 
-    core.info(name)
+    core.info(helloMessage)
   } catch (error) {
     if (error instanceof Error) core.setFailed(error.message)
   }
