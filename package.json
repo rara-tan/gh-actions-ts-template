@@ -2,7 +2,7 @@
   "name": "gh-actions-ts-template",
   "version": "1.0.0",
   "description": "Github Actions Typescript Template",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "build": "ncc build src/index.ts -o dist",
     "lint": "eslint src/**/*.ts",
