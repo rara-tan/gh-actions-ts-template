@@ -1,0 +1,10 @@
+name: 'Hello'
+description: 'Hello Github Actions Template'
+inputs:
+  name:
+    description: 'greeting'
+    required: true
+    default: 'yossy'
+runs:
+  using: 'node16'
+  main: 'dist/main.js'
