@@ -2857,7 +2857,7 @@ function run() {
     try {
         const name = core.getInput('name');
         const helloMessage = (0, hello_1.hello)(name);
-        core.setOutput('name', helloMessage);
+        core.info(name);
     }
     catch (error) {
         if (error instanceof Error)
