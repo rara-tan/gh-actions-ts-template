@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Test Actions
-        uses: rara-tan/gh-actions-ts-template@v0.1
+        uses: rara-tan/gh-actions-ts-template@v0.4
         with:
           name: "Tom"
 
