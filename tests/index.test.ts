@@ -1,4 +1,4 @@
-import {hello} from '../src/main'
+import {hello} from '../src/hello'
 
 describe('hello test', () => {
   test('OK', async () => {
